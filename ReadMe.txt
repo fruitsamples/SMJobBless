@@ -1,6 +1,6 @@
 Read Me About SMJobBless
 ====================================
-1.1
+1.2
 
 SMJobBless demonstrates how to embed a privileged helper tool in an application, how to securely install that tool, and how to associate the tool with the application that invokes it.
 
@@ -33,7 +33,7 @@ sample ran correctly.
 
 Building the Sample
 -------------------
-The sample was built using Xcode 3.2.2 on Mac OS X 10.6.3. 
+The sample was built using Xcode 4.3.2 on OS X 10.7.4. 
 
 ServiceManagement.framework uses code signatures to insure that the helper tool is the one expected to be run by
 the main application. Therefore, you will need a code signing identity to test this sample. This sample ships with the Code Signing Identity build setting set to "Joe Developer". 
@@ -43,7 +43,7 @@ You can get a self-signed code signing identity using these steps:
 2. Select Keychain Access > Certificate Assistant > Create a Certificate...
 3. In the Name field, enter "Joe Developer".
 4. Change Certificate Type to "Code Signing".
-5. Press Continue.
+5. Press Create.
 6. You're done!
 
 If you use a signing identity with a different Common Name (CN), you will need to change the CN in four places:
@@ -115,10 +115,9 @@ If you find any problems with this sample, please file a bug against it.
 
 <http://developer.apple.com/bugreporter/>
 
+1.2 (May 2012) Minor changes to build and run on OS X Mountain Lion
 1.1 (Jun 2010) Minor stylistic revisions.
 1.0 (Jun 2010) New sample.
 
 Apple Developer Technical Support
 Core OS/Hardware
-
-9 Jun 2010

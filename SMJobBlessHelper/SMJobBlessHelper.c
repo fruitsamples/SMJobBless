@@ -4,7 +4,7 @@
 Abstract: A helper tool that doesn't do anything event remotely interesting.
 See the ssd sample for how to use GCD and launchd to set up an on-demand
 server via sockets.
- Version: 1.2
+ Version: 1.3
 
 Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
 Inc. ("Apple") in consideration of your agreement to the following
@@ -44,7 +44,7 @@ AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
 STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
-Copyright (C) 2011 Apple Inc. All Rights Reserved.
+Copyright (C) 2012 Apple Inc. All Rights Reserved.
 
 
 */
